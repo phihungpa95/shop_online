@@ -1,0 +1,78 @@
+{
+    "section_1": [
+        {
+            "title": "Women’s fashion",
+            "description": "Sitamet, consectetur adipiscing elit, sed do eiusmod tempor incidid-unt labore edolore magna aliquapendisse ultrices gravida.",
+            "image": "img/categories/category-1.jpg",
+            "link": "#"
+        },
+        {
+            "title": "Women’s fashion",
+            "description": "Sitamet, consectetur adipiscing elit, sed do eiusmod tempor incidid-unt labore edolore magna aliquapendisse ultrices gravida.",
+            "image": "img/categories/category-1.jpg",
+            "link": "#"
+        },
+        {
+            "title": "Women’s fashion",
+            "description": "Sitamet, consectetur adipiscing elit, sed do eiusmod tempor incidid-unt labore edolore magna aliquapendisse ultrices gravida.",
+            "image": "img/categories/category-1.jpg",
+            "link": "#"
+        },
+        {
+            "title": "Women’s fashion",
+            "description": "Sitamet, consectetur adipiscing elit, sed do eiusmod tempor incidid-unt labore edolore magna aliquapendisse ultrices gravida.",
+            "image": "img/categories/category-1.jpg",
+            "link": "#"
+        },
+        {
+            "title": "Women’s fashion",
+            "description": "Sitamet, consectetur adipiscing elit, sed do eiusmod tempor incidid-unt labore edolore magna aliquapendisse ultrices gravida.",
+            "image": "img/categories/category-1.jpg",
+            "link": "#"
+        }
+    ],
+    "productList": [
+        {
+            "title": "Buttons tweed blazer",
+            "money": "$ 59.0",
+            "promotion": "$ 49.0",
+            "image": "img/product/product-1.jpg",
+            "sale" : true
+        },
+        {
+            "title": "Buttons tweed blazer",
+            "money": "$ 59.0",
+            "promotion": "$ 49.0",
+            "image": "img/product/product-1.jpg",
+            "out_of_stock" : true
+        },
+        {
+            "title": "Buttons tweed blazer",
+            "money": "$ 59.0",
+            "image": "img/product/product-1.jpg",
+            "new" : true
+        },{
+            "title": "Buttons tweed blazer",
+            "money": "$ 59.0",
+            "promotion": "$ 49.0",
+            "image": "img/product/product-1.jpg",
+            "new" : true
+        },{
+            "title": "Buttons tweed blazer",
+            "money": "$ 59.0",
+            "promotion": "$ 49.0",
+            "image": "img/product/product-1.jpg",
+            "new" : true
+        },{
+            "title": "Buttons tweed blazer",
+            "money": "$ 59.0",
+            "promotion": "$ 49.0",
+            "image": "img/product/product-1.jpg",
+            "new" : true
+        }
+    ],
+    "product_home": [
+
+        
+    ]
+}
