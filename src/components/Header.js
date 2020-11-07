@@ -1,8 +1,25 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import {NavLink} from 'react-router-dom';
+import Login from '../screens/login';
+import Search from './search';
 
-export default function Header() {
+export default function Header(props) {
+
+    let search = useRef(null)
+
+    function searchHandle() {
+        search.current.open();
+    }
+
+    let login = useRef(null)
+
+    function loginHandle() {
+        login.current.open();
+    }
+
+
     return (
+        
         <header className="header">
             <div className="container-fluid">
                 <div className="row">
@@ -14,7 +31,7 @@ export default function Header() {
                     <div className="col-xl-6 col-lg-7">
                         <nav className="header__menu">
                             <ul>
-                                <li className="active"><NavLink to="/">Home</NavLink></li>
+                                <li><NavLink to="/">Home</NavLink></li>
                                 <li><NavLink to="">Women’s</NavLink></li>
                                 <li><NavLink to="#">Men’s</NavLink></li>
                                 <li><NavLink to="/shop">Shop</NavLink></li>
@@ -34,11 +51,11 @@ export default function Header() {
                     <div className="col-lg-3">
                         <div className="header__right">
                             <div className="header__right__auth">
-                                <a href="#">Login</a>
-                                <a href="#">Register</a>
+                                <a onClick={loginHandle}>Login</a>
+                                <NavLink to="#">Register</NavLink>
                             </div>
                             <ul className="header__right__widget">
-                                <li><span className="icon_search search-switch" /></li>
+                                <li><span onClick={searchHandle} className="icon_search search-switch" /></li>
                                 <li><a href="#"><span className="icon_heart_alt" />
                                     <div className="tip">2</div>
                                 </a></li>
@@ -53,7 +70,8 @@ export default function Header() {
                     <i className="fa fa-bars" />
                 </div>
             </div>
+            <Search ref={search} />
+            <Login ref={login} />
         </header>
-
     )
 }

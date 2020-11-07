@@ -7,27 +7,27 @@
             "link": "#"
         },
         {
-            "title": "Women’s fashion",
-            "description": "Sitamet, consectetur adipiscing elit, sed do eiusmod tempor incidid-unt labore edolore magna aliquapendisse ultrices gravida.",
-            "image": "img/categories/category-1.jpg",
+            "title": "Men’s fashion",
+            "description": "358 items",
+            "image": "img/categories/category-2.jpg",
             "link": "#"
         },
         {
-            "title": "Women’s fashion",
-            "description": "Sitamet, consectetur adipiscing elit, sed do eiusmod tempor incidid-unt labore edolore magna aliquapendisse ultrices gravida.",
-            "image": "img/categories/category-1.jpg",
+            "title": "Kid’s fashion",
+            "description": "273 items",
+            "image": "img/categories/category-3.jpg",
             "link": "#"
         },
         {
-            "title": "Women’s fashion",
-            "description": "Sitamet, consectetur adipiscing elit, sed do eiusmod tempor incidid-unt labore edolore magna aliquapendisse ultrices gravida.",
-            "image": "img/categories/category-1.jpg",
+            "title": "Cosmetics",
+            "description": "159 items",
+            "image": "img/categories/category-4.jpg",
             "link": "#"
         },
         {
-            "title": "Women’s fashion",
-            "description": "Sitamet, consectetur adipiscing elit, sed do eiusmod tempor incidid-unt labore edolore magna aliquapendisse ultrices gravida.",
-            "image": "img/categories/category-1.jpg",
+            "title": "Accessories",
+            "description": "792 items",
+            "image": "img/categories/category-5.jpg",
             "link": "#"
         }
     ],
@@ -40,39 +40,92 @@
             "sale" : true
         },
         {
-            "title": "Buttons tweed blazer",
-            "money": "$ 59.0",
+            "title": "Flowy striped skirt",
+            "money": "$ 49.0",
             "promotion": "$ 49.0",
-            "image": "img/product/product-1.jpg",
+            "image": "img/product/product-2.jpg",
             "out_of_stock" : true
         },
         {
-            "title": "Buttons tweed blazer",
+            "title": "Cotton T-Shirt",
             "money": "$ 59.0",
-            "image": "img/product/product-1.jpg",
+            "image": "img/product/product-3.jpg",
             "new" : true
         },{
-            "title": "Buttons tweed blazer",
+            "title": "Slim striped pocket shirt",
             "money": "$ 59.0",
             "promotion": "$ 49.0",
-            "image": "img/product/product-1.jpg",
+            "image": "img/product/product-4.jpg",
             "new" : true
         },{
-            "title": "Buttons tweed blazer",
+            "title": "Fit micro corduroy shirt",
             "money": "$ 59.0",
             "promotion": "$ 49.0",
-            "image": "img/product/product-1.jpg",
+            "image": "img/product/product-5.jpg",
             "new" : true
         },{
-            "title": "Buttons tweed blazer",
+            "title": "Tropical Kimono",
             "money": "$ 59.0",
             "promotion": "$ 49.0",
-            "image": "img/product/product-1.jpg",
+            "image": "img/product/product-6.jpg",
+            "new" : true
+        },{
+            "title": "Contrasting sunglasses",
+            "money": "$ 59.0",
+            "promotion": "$ 49.0",
+            "image": "img/product/product-7.jpg",
+            "new" : true
+        },{
+            "title": "Water resistant backpack",
+            "money": "$ 59.0",
+            "promotion": "$ 49.0",
+            "image": "img/product/product-8.jpg",
             "new" : true
         }
     ],
-    "product_home": [
-
-        
+    "product_hot": [
+        {
+            "title": "Chain bucket bag",
+            "money": "$ 59.0",
+            "image": "img/trend/ht-1.jpg"
+        },{
+            "title": "Pendant earrings",
+            "money": "$ 59.0",
+            "image": "img/trend/ht-2.jpg"
+        },{
+            "title": "Cotton T-Shirt",
+            "money": "$ 59.0",
+            "image": "img/trend/ht-3.jpg"
+        }
+    ],
+    "product_seller": [
+        {
+            "title": "Cotton T-Shirt",
+            "money": "$ 59.0",
+            "image": "img/trend/bs-1.jpg"
+        },{
+            "title": "Zip-pockets pebbled tote briefcase",
+            "money": "$ 59.0",
+            "image": "img/trend/bs-2.jpg"
+        },{
+            "title": "Round leather bag",
+            "money": "$ 59.0",
+            "image": "img/trend/bs-3.jpg"
+        }
+    ],
+    "product_feature": [
+        {
+            "title": "Bow wrap skirt",
+            "money": "$ 59.0",
+            "image": "img/trend/f-1.jpg"
+        },{
+            "title": "Metallic earrings",
+            "money": "$ 59.0",
+            "image": "img/trend/f-2.jpg"
+        },{
+            "title": "Flap cross-body bag",
+            "money": "$ 59.0",
+            "image": "img/trend/f-3.jpg"
+        }
     ]
 }

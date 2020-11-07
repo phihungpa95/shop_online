@@ -8,37 +8,30 @@ import Discount from './components/discount';
 import Sevices from './components/services';
 import Instagram from '../../components/instagram';
 
-import { Type, Reducer } from './Reducer';
+import { GetProductAPI } from '../../redux/action';
+import { useDispatch } from 'react-redux';
 
-function Home() {
 
-    let [state, dispatch] = useReducer(Reducer, {
-        section1: [],
-        productList: []
-    });
+export default function Home() {
 
+    
+    const distpatch = useDispatch()
     useEffect(LoadImage, [])
     useEffect(() => {
-        loadData(res => {
-            dispatch({ type: Type.INIT_DATA, data: res })
-        });
-    }, [])
+       
+        distpatch(GetProductAPI())
+        
+    }, []);
 
-    function loadData(callback) {
-        fetch('/data/home.json')
-            .then(res => res.json())
-            .then(callback)
-    }
 
-    console.log(state)
     return (
         <div className="HomePage">
 
             {/* Categories Section Begin */}
-            <Categories data={state.section1} />
+            <Categories />
             {/* Categories Section End */}
             {/* Product Section Begin */}
-            <Product data={state.productList} />
+            <Product />
             {/* Product Section End */}
             {/* Banner Section Begin */}
             <Banner />
@@ -57,5 +50,3 @@ function Home() {
         </div>
     );
 }
-
-export default Home;

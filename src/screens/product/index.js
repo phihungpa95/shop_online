@@ -14,7 +14,7 @@ function product_thumbs(num) {
         }
     })
 }
-function Index(props) {
+function Index() {
 
     useEffect(LoadImage, [])
 

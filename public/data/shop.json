@@ -1,0 +1,60 @@
+{
+    "shop":[
+        {
+            "title": "Furry hooded parka",
+            "money": "$ 59.0",
+            "promotion": "$ 49.0",
+            "image": "img/shop/shop-1.jpg",
+            "new" : true
+        },
+        {
+            "title": "Flowy striped skirt",
+            "money": "$ 49.0",
+            "promotion": "$ 49.0",
+            "image": "img/shop/shop-2.jpg",
+            "out_of_stock" : true
+        },
+        {
+            "title": "Croc-effect bag",
+            "money": "$ 59.0",
+            "image": "img/shop/shop-3.jpg",
+            "new" : true
+        },{
+            "title": "Dark wash Xavi jeans",
+            "money": "$ 59.0",
+            "promotion": "$ 49.0",
+            "image": "img/shop/shop-4.jpg",
+            "new" : true
+        },{
+            "title": "Ankle-cuff sandals",
+            "money": "$ 59.0",
+            "promotion": "$ 49.0",
+            "image": "img/shop/shop-5.jpg",
+            "sale" : true
+        },{
+            "title": "Contrasting sunglasses",
+            "money": "$ 59.0",
+            "promotion": "$ 49.0",
+            "image": "img/shop/shop-6.jpg",
+            "new" : true
+        },{
+            "title": "Circular pendant earrings",
+            "money": "$ 59.0",
+            "promotion": "$ 49.0",
+            "image": "img/shop/shop-7.jpg",
+            "new" : true
+        },{
+            "title": "Cotton T-Shirt",
+            "money": "$ 59.0",
+            "promotion": "$ 49.0",
+            "image": "img/shop/shop-8.jpg",
+            "out_of_stock" : true
+        },{
+            "title": "Water resistant backpack",
+            "money": "$ 59.0",
+            "promotion": "$ 49.0",
+            "image": "img/shop/shop-9.jpg",
+            "sale" : true
+        }
+    ]
+}

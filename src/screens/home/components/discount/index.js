@@ -1,7 +1,33 @@
-import React, { useEffect } from 'react';
+import { data } from 'jquery';
+import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import LoadImage from '../../../../components/LoadImage';
 
+
 function Index() {
+    const [data,setData] = useState({
+        day : "",
+        hours : "",
+        minutes : "",
+        second : "" 
+    })
+    useEffect(() =>{
+        setInterval(()=>{
+            let dayNow = new Date()
+            let daySale = new Date(2020, 11, 2)
+            let time = daySale - dayNow;
+            let day = Math.floor(time / 1000 / 60 / 60 / 24);
+            let hours = Math.floor(time / 1000 / 60 / 60 - day * 24);
+            let minutes = Math.floor(time / 1000 / 60 - day * 24 * 60 - hours * 60);
+            let second = Math.floor(time / 1000 - day * 24 * 60 * 60 - hours * 60 * 60 - minutes * 60);
+            setData({
+                day,
+                hours,
+                minutes,
+                second
+            })
+        },1000)
+    },[])
     useEffect(LoadImage, [])
     return (
         <section className="discount">
@@ -21,23 +47,23 @@ function Index() {
                             </div>
                             <div className="discount__countdown" id="countdown-time">
                                 <div className="countdown__item">
-                                    <span>22</span>
+                                    <span>{data.day}</span>
                                     <p>Days</p>
                                 </div>
                                 <div className="countdown__item">
-                                    <span>18</span>
+                                    <span>{data.hours}</span>
                                     <p>Hour</p>
                                 </div>
                                 <div className="countdown__item">
-                                    <span>46</span>
+                                    <span>{data.minutes}</span>
                                     <p>Min</p>
                                 </div>
                                 <div className="countdown__item">
-                                    <span>05</span>
+                                    <span>{data.second}</span>
                                     <p>Sec</p>
                                 </div>
                             </div>
-                            <a href="#">Shop now</a>
+                            <Link to="/shop">Shop now</Link>
                         </div>
                     </div>
                 </div>

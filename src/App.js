@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Footer from './components/Footer';
 import Header from './components/Header';
@@ -12,10 +12,13 @@ import Shop from './screens/shop';
 import ShopCart from './screens/shop-cart';
 
 import Context from './Context';
+import { GetDanhMucAPI } from './redux/action';
 
-function App() {
+
+function App(props) {
   let [login, setLogin] = useState(false);
-  let [cart, setCart] = useState([]);
+  let [cart, setCart] = useState([]); 
+
 
   return (
     <Context.Provider value={{ login, setLogin, cart, setCart }}>
@@ -48,7 +51,7 @@ function App() {
           </Route>
         </Switch>
         <Footer />
-
+        
       </BrowserRouter>
     </Context.Provider>
 
